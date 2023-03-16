@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+     <body>
+        <form id ="login">
+            <div class="avatar">
+                <i class="fa fa-user"></i>
+              </div>
+    
+              <h2>Login Form</h2>
+    
+              <div id="box-login">
+                <i class="fas fa-envelope-open-text"></i>
+                <input type="text"  name="username" placeholder="Username" value="" onfocus="kosongin()"/>
+              </div>
+    
+              <div id="box-login">
+                <i class="fas fa-lock"></i>
+                <input type="password" name="password" placeholder="Password"  value="" onfocus ="kosongin2()"/>
+              </div>
+    
+              <input type="button" name="proses" class="btn-login" value="Login" onclick ="cekLogin()"/>
+              <div class="bottom">
+                <a href="#">Register</a>
+                <a href="#">Forgot Password</a>
+              </div>
+          </form>
+          <script type="text/javascript" src="js/skripku.js"></script>
+     </body>
+      
+  </head>
+  </html>
+
